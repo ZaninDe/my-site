@@ -12,7 +12,7 @@ export default function Repository(props: RepositoryItemsProps) {
   return(
     <li className={styles.ItemContainer}>
       <strong>{props.repository.name}</strong>
-      <p>{props.repository.description}</p>
+      <p>{props.repository.description !== null ? props.repository.description : "No Description"}</p>
 
       <a href={props.repository.html_url}>
         Access repo

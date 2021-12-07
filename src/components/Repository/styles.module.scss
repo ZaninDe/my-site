@@ -1,8 +1,15 @@
 .ItemContainer {
-  margin-top: 2rem;
+  margin: 2rem 0;
+  border-bottom: 1px solid var(--gray-800);
   
   strong{
-    color: #ffff;
+    color: #eba417;
     font-size: 1.25rem;
   }
+
+
+  li{
+    list-style-type: none;
+  }
+
 }
