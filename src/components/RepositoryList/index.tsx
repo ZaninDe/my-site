@@ -24,7 +24,7 @@ export default function RepositoryList() {
       <Header />
       <div className={styles.ContentContainer}>
       <section className={styles.repositoryContainer}>
-        <p>here we can see my whole journey as a developer, each repository is a piece of this history where I learned a lot, and this is just the beginning! 🚀🚀</p>
+        {/* <p>here we can see my whole journey as a developer, each repository is a piece of this history where I learned a lot, and this is just the beginning! 🚀🚀</p> */}
         <h1>My Repositories</h1>
 
         <ul>

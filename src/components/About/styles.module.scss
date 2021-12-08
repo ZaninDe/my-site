@@ -1,0 +1,41 @@
+.fullContainer {
+  max-width: 1120px;
+  margin: 2rem auto;
+
+
+  li {
+    color: #ffff;
+    list-style-type: none;
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+}
+
+.contentContainer {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 7rem;
+
+ 
+
+  p {
+    font-size: 1.5rem;
+    color: #eba417
+  }
+  
+
+  img {
+    width: 15rem;
+    border-radius: 50%;
+
+    & + p {
+      margin-left: 2rem;
+    }
+    
+  }
+}

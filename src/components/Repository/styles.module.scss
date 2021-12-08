@@ -1,6 +1,7 @@
 .ItemContainer {
   margin: 2rem 0;
-  border-bottom: 1px solid var(--gray-800);
+  border: 1px solid var(--gray-800);
+  padding: 1rem;
   
   strong{
     color: #eba417;
@@ -10,6 +11,44 @@
 
   li{
     list-style-type: none;
+  }
+
+  a {
+    padding: 0.5rem;
+    color: #fff;
+    border-radius: 0.8rem;
+    margin-left: 920px;
+    background: #238636;
+
+    transition: filter 0.3s;
+
+    &:hover{
+      filter: brightness(0.7)
+    }
+  }
+
+  p {
+    color: #ffff;
+    font-size: 0.8125rem;
+  }
+}
+
+.titleContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+
+  strong {
+  margin-right: 1.5rem;
+  }
+
+  p {
+    color: #000;
+    font-size: 0.8125rem;
+    padding: 0.35rem;
+    border: 1px solid #000;
+    border-radius: 1rem;
+
   }
 
 }
