@@ -10,7 +10,7 @@ export default function Header() {
       <div className={styles.contentContainer}>
 
         <nav>
-          <Link to="/">CV</Link>
+          <Link to="/cv">CV</Link>
           <Link to="/about">About</Link>
           <Link to="/projects">Projects</Link>
         </nav>

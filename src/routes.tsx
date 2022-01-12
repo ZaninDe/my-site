@@ -4,7 +4,6 @@ import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import Cv from './components/Cv'
 import About from './components/About'
 import Projects from './components/RepositoryList'
-import Header from './components/Header';
 
 export default function routes(){
   return (
