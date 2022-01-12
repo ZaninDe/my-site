@@ -10,7 +10,8 @@ export default function routes(){
   return (
       <Router>
         <Routes>
-          <Route element={<Cv />} path="/" />
+          <Route element={<About />} path="/" />
+          <Route element={<Cv />} path="/cv" />
           <Route element={<About />} path="/about" />
           <Route element={<Projects />} path="/projects" />
         </Routes>
